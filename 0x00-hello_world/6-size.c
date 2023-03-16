@@ -4,8 +4,8 @@
  *
  * Description: using sizeof to display the size of various types
  *
- * return: return 0 (success)
- */
+ * Return: Always return 0 (Success)
+ */ 
 int main(void)
 {
 	char a;
