@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
- * main - A program that prints an output using the printf function
- * Result: 0
+ * main - Entry point
+ *
+ * Description: A C program that displays an output using the printf function
+ *
+ * Result: 0 (success)
  */
 int main(void)
 {
