@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: A C program that displays the size of various types
+ * Description: using sizeof to display the size of various types
  *
  * return: return 0 (success)
  */
