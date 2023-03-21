@@ -1,17 +1,18 @@
 #include <stdio.h>
-/** main - main entry point
+/**
+ * main - This is the main entry point
  *
- * return: Always return 0 (success)
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	char c;
+
 	c = 'a';
-	while (c = 'a'){
-		putchar(c);
-		c++;
-	}
+	while (c <= 'z') {
+			putchar(c);
+			c++;
+		}
 	putchar('\n');
-	return 0;
+	return (0);
 }
