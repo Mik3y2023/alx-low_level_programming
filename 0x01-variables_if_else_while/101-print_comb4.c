@@ -2,7 +2,7 @@
 /**
  * main - This is the main entry point
  * description -  prints all possible combinations of these digits
- * Return: Always return 0 
+ * Return: Always return 0
  */
 int main(void)
 {
