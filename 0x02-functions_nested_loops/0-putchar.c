@@ -1,20 +1,23 @@
 #include "main.h"
 
 /**
- * main - this is the main entry point
- * description - a program that prints _putchar
- * return: Always 0
+ * main - Entry point
+ *
+ * Description: a program that prints _putchar
+ * follwed by a new line
+ *
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
-	putchar("_\n");
-	putchar("p\n");
-	putchar("u\n");
-	putchar("t\n");
-	putchar("c\n");
-	putchar("h\n");
-	putchar("a\n");
-	putchar("r\n");
-	return 0;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
