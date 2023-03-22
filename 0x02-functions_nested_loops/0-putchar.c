@@ -1,12 +1,20 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
  * main - this is the main entry point
- * description - a program that prints putchar
+ * description - a program that prints _putchar
  * return: Always 0
  */
 
-int main()
+int main(void)
 {
-	printf("_putchar\n");
+	printf("_\n");
+	printf("p\n");
+	printf("u\n");
+	printf("t\n");
+	printf("c\n");
+	printf("h\n");
+	printf("a\n");
+	printf("r\n");
 	return 0;
 }
