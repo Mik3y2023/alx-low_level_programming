@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	printf("_\n");
-	printf("p\n");
-	printf("u\n");
-	printf("t\n");
-	printf("c\n");
-	printf("h\n");
-	printf("a\n");
-	printf("r\n");
+	putchar("_\n");
+	putchar("p\n");
+	putchar("u\n");
+	putchar("t\n");
+	putchar("c\n");
+	putchar("h\n");
+	putchar("a\n");
+	putchar("r\n");
 	return 0;
 }
