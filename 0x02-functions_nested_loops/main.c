@@ -1,5 +1,5 @@
-#ifndef main
-#define main
+#ifndef MAIN
+#define MAIN
 
 int main(void)
 
