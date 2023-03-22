@@ -3,9 +3,9 @@
 /**
  * _isalpha - check for alphabetic order
  * @c: the character to be checked
- * Return: 1 if g is a letter, 0 otherwise
+ * Return: 1 if c is a letter, 0 otherwise
  */
-int _isalpha(int g)
+int _isalpha(int c)
 {
-	return ((g >= 'a' && g <= 'z') || (g >= 'A' && g <= 'Z'));
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
