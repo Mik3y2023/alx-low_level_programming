@@ -9,13 +9,16 @@
 
 int _isupper(int c)
 {
-	c = 'A';
-	if (c <= 'Z')
+	int i;
+
+	for (i = 'A', i <= 'Z', i++)
 	{
+		if
+		{
+		i == c;
 		return (1);
+		}
 	}
 	else
-	{
 		return (0);
-	}
 }
