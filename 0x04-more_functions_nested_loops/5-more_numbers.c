@@ -15,7 +15,7 @@ void more_numbers(void)
 	while (i < 10)
 	{
 		for (c = 0; c <= 14; c++)
-			_puthcar(c);
+			_putchar(c);
 		i++;
 		_putchar('\n');
 	}
