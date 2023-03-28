@@ -5,7 +5,7 @@
  *
  * @c: an integer
  *
- * Return: 1 (failure), 0 (success)
+ * Return: digit
  */
 
 int _isdigit(int c)
