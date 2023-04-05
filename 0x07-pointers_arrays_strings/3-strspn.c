@@ -8,26 +8,29 @@
  * Return: The number of bytes in s which consists
  * of only bytes from accept
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int bytes = 0;
-	int index;
+	int found;
 
-	while (*s)
+	found = 1;
+
+	for (; *s; s++)
 	{
-		for (index = 0; accept[index]; index++)
+		for (int i = 0; accept[i]; i++)
 		{
-			if (*s == accept[index])
+			if (*s == accept[i])
 			{
 				bytes++;
+				found = 1;
 				break;
 			}
-			else if (accept[index + 1] == '\0')
-			{
-				return (bytes);
-			}
 		}
-		s++;
+		if (!found)
+		{
+			return (bytes);
+		}
 	}
 	return (bytes);
 }
