@@ -1,28 +1,22 @@
 #include <stdio.h>
+
 /**
- * main - This is the entry point
+ * main - main function
  *
- * Return: Always 0 (success)
+ * return: 0 on success, non-zero on failure
  */
 
 int main(void)
 {
-	char c;
+	int c;
 
-	int d;
-
-	c = 'a';
-	d = 0;
-	while
-		(d < 10) {
-			putchar(d + '0');
-			d++;
-		}
-	while
-		(c <= 'f') {
-			putchar(c);
-			c++;
-		}
+	for (c = 0 ; c < 16 ; c++)
+	{
+		if (c < 10)
+		putchar(c + '0');
+		else
+		putchar(c - 10 + 'a');
+	}
 	putchar('\n');
 	return (0);
 }
