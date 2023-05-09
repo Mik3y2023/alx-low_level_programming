@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * read_textfile - function that reads textfile 
+ * read_textfile - function that reads textfile
  * and prints it to the POSIX stdout
  * @filename: name of the file being read
  * @letters: number of letters it should read and print
